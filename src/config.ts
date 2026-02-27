@@ -296,14 +296,6 @@ export const config = {
       },
     ],
   },
-
-  // ============================================
-  // LOGO
-  // ============================================
-  logo: {
-    src: "/logo.png",
-    alt: "Beauty and Mohr Freiburg Logo",
-  },
 };
 
 export type Config = typeof config;

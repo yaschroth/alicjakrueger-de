@@ -92,14 +92,7 @@ const Navbar = () => {
       isScrolled ? "bg-white/90 backdrop-blur-md shadow-sm py-3 md:top-0" : "bg-transparent"
     )}>
       <div className="max-w-7xl mx-auto flex items-center justify-between">
-        <div className="flex items-center gap-3">
-          {config.logo?.src && (
-            <img
-              src={config.logo.src}
-              alt={config.logo.alt || config.business.name}
-              className="h-10 md:h-12 object-contain"
-            />
-          )}
+        <div className="flex items-center">
           <span className="font-serif text-xl md:text-2xl tracking-widest uppercase font-light">{config.business.name}</span>
         </div>
 
