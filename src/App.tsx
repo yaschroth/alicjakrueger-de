@@ -201,7 +201,7 @@ const Hero = () => {
           transition={{ delay: 0.7 }}
           className="text-white font-serif text-5xl md:text-7xl font-extralight leading-[1.1] mb-6"
         >
-          Natürliche Schönheit, <br /> <span className="italic">perfekt betont.</span>
+          Schönheit, die <br /> <span className="italic">von Herzen kommt.</span>
         </motion.h1>
         <motion.p
           initial={{ opacity: 0, y: 20 }}
@@ -209,7 +209,7 @@ const Hero = () => {
           transition={{ delay: 0.9 }}
           className="text-white/80 text-lg md:text-xl max-w-2xl mx-auto mb-10 font-light"
         >
-          Wimpern, Microblading, Lash Lifting und Permanent Make-up. {config.business.yearsExperience} Jahre Erfahrung und zertifizierte Beauty-Expertinnen in Heilbronn.
+          Kosmetik, Permanent Make-up, Microblading & Nageldesign. {config.business.yearsExperience} Jahre Erfahrung in Freiburg.
         </motion.p>
         <motion.div
           initial={{ opacity: 0 }}
@@ -253,7 +253,7 @@ const Hero = () => {
       <div className="absolute bottom-12 left-6 md:left-12 z-10 hidden md:block">
         <div className="flex items-center gap-4 text-white/60 text-[10px] uppercase tracking-widest">
           <div className="flex items-center gap-2">
-            <ShieldCheck size={14} className="text-primary" aria-hidden="true" /> Zertifizierte Lash Artistinnen
+            <ShieldCheck size={14} className="text-primary" aria-hidden="true" /> Zertifizierte Kosmetikerinnen
           </div>
           <div className="w-1 h-1 rounded-full bg-white/20" aria-hidden="true"></div>
           <div className="flex items-center gap-2">
@@ -348,7 +348,7 @@ const Services = () => {
           <h2 className="font-serif text-5xl md:text-7xl leading-tight">Beauty-Treatments auf <br /> <span className="italic">höchstem Niveau.</span></h2>
         </div>
         <p className="text-black/50 max-w-sm leading-relaxed text-sm">
-          Von klassischer Maniküre bis kreativem Nageldesign. Ob Gel, Acryl oder Shellac: Wir finden den perfekten Look für deine Nägel.
+          Von Gesichtsbehandlungen über Permanent Make-up bis Nageldesign. Wir verwöhnen Sie mit professionellen Behandlungen und hochwertigen Produkten.
         </p>
       </div>
 
