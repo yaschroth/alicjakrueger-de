@@ -14,6 +14,7 @@ export const config = {
     yearsExperience: 15,
     yearsInCenter: 15,
     satisfiedClients: "1000+",
+    productBrands: ["Malu Wilz", "Dr. R.A. Eckstein", "Dr. med. Christine Schrammek", "Goldeneye", "LCN"],
   },
 
   // ============================================
@@ -48,11 +49,11 @@ export const config = {
   // OPENING HOURS
   // ============================================
   hours: {
-    weekdays: "Mo-Fr 09:00-18:00",
-    saturday: "Sa nach Vereinbarung",
+    weekdays: "08:00-20:00",
+    saturday: "Nach Vereinbarung",
     sunday: "Geschlossen",
     note: "Termine nach Vereinbarung",
-    display: "Mo-Fr 09:00-18:00",
+    display: "08:00-20:00 Uhr",
   },
 
   // ============================================
@@ -80,7 +81,7 @@ export const config = {
     image: "/beauty/face.jpg",
     bio: [
       "Willkommen bei Beauty and Mohr - Ihre erste Adresse für professionelle Kosmetik, Permanent Make-up und Nageldesign in Freiburg. Unser erfahrenes Team verwöhnt Sie mit erstklassigen Behandlungen.",
-      "In unserem Kosmetikstudio können Sie ruhige Momente verbringen, sich vom stressigen Alltag erholen und sich eine verdiente Auszeit gönnen. Wir arbeiten mit hochwertigen Produkten der Marke Malu Wilz.",
+      "In unserem Kosmetikstudio können Sie ruhige Momente verbringen, sich vom stressigen Alltag erholen und sich eine verdiente Auszeit gönnen. Wir arbeiten mit hochwertigen Produkten von Malu Wilz, Dr. R.A. Eckstein und Dr. med. Christine Schrammek.",
       "Ob klassische Gesichtsbehandlung, Permanent Make-up, Microblading oder Nageldesign - bei uns sind Sie in besten Händen. Besuchen Sie uns und erleben Sie Schönheitspflege auf höchstem Niveau.",
     ],
     certifications: [
@@ -131,43 +132,43 @@ export const config = {
   services: [
     {
       title: "Klassische Gesichtsbehandlung",
-      description: "Verwöhnende Gesichtsbehandlungen mit hochwertigen Malu Wilz Produkten. Reinigung, Peeling, Massage und individuelle Pflege für strahlende Haut.",
-      price: "ab 59€",
+      description: "Verwöhnende Gesichtsbehandlungen mit hochwertigen Malu Wilz und Dr. R.A. Eckstein Produkten. Reinigung, Peeling, Massage und individuelle Pflege für strahlende Haut.",
+      price: "ab 66€",
       image: "/beauty/face.jpg",
       benefits: ["Tiefenreinigung", "Entspannung"],
     },
     {
       title: "Permanent Make-up",
       description: "Perfekte Lippen, Augenbrauen oder Lidstrich, jeden Tag. Permanent Make-up lässt Träume von strahlenden Augen und attraktiven Konturen wahr werden.",
-      price: "auf Anfrage",
+      price: "ab 199€",
       image: "/beauty/eyebrow-after.png",
       benefits: ["Langanhaltend", "Wasserfest"],
     },
     {
       title: "Microblading & Phibrows",
       description: "Natürlich aussehende Augenbrauen mit der Härchentechnik. Perfekt für dichte, volle Brauen, die zu Ihrem Gesicht passen.",
-      price: "auf Anfrage",
+      price: "ab 449€",
       image: "/beauty/face2.jpg",
       benefits: ["1-2 Jahre Halt", "Natürlich"],
     },
     {
-      title: "Nageldesign",
-      description: "Von klassischer Maniküre bis zur professionellen Nagelmodellage. Wir zaubern Ihnen wunderschöne, gepflegte Nägel.",
-      price: "ab 35€",
+      title: "Maniküre & Nageldesign",
+      description: "Von klassischer Maniküre bis zur professionellen Shellac-Behandlung. Wir zaubern Ihnen wunderschöne, gepflegte Nägel.",
+      price: "ab 32€",
       image: "/beauty/maniküre 3.png",
       benefits: ["Langanhaltend", "Kreativ"],
     },
     {
-      title: "Wimpernverlängerung",
-      description: "Traumhaft volle Wimpern für einen verführerischen Blick. Classic, Volume oder Mega Volume - ganz nach Ihren Wünschen.",
-      price: "auf Anfrage",
+      title: "Wimpernlifting",
+      description: "Traumhaft geschwungene Wimpern für einen verführerischen Blick. Natürliches Lifting für bis zu 8 Wochen.",
+      price: "ab 79€",
       image: "/beauty/wimpern.png",
       benefits: ["Natürlich", "Langanhaltend"],
     },
     {
       title: "Waxing & Haarentfernung",
-      description: "Sanfte und effektive Haarentfernung mit Waxing. Hollywood- oder Brazilian-Waxing für lang anhaltend glatte Haut.",
-      price: "ab 25€",
+      description: "Sanfte und effektive Haarentfernung mit Waxing. Für lang anhaltend glatte Haut an allen Körperstellen.",
+      price: "ab 10€",
       image: "/beauty/behandlung 3.png",
       benefits: ["Gründlich", "Langanhaltend"],
     },
@@ -194,45 +195,95 @@ export const config = {
     {
       category: "Klassische Gesichtsbehandlungen",
       items: [
-        { name: "Basis Gesichtsbehandlung", price: "ab 59€" },
-        { name: "Luxus Gesichtsbehandlung", price: "ab 89€" },
-        { name: "Anti-Aging Behandlung", price: "ab 99€" },
-        { name: "Microdermabrasion", price: "ab 79€" },
-        { name: "Microneedling", price: "ab 99€" },
-        { name: "Microdermabrasion & Microneedling Kombi", price: "ab 149€" },
+        { name: "Basic Klassik", price: "66€" },
+        { name: "Basic Klassik Plus", price: "69€" },
+        { name: "Pflege & Verwöhnen I", price: "79€" },
+        { name: "Pflege & Verwöhnen II", price: "82€" },
+        { name: "Pflege & Verwöhnen III", price: "92€" },
+        { name: "Anti-Aging Intensiv", price: "105€" },
+        { name: "Microneedling Spezialbehandlung", price: "139€" },
+        { name: "Hydrafacial", price: "155€" },
+        { name: "Back Treatment Klassik", price: "85€" },
       ],
     },
     {
-      category: "Permanent Make-up & Microblading",
+      category: "Green Peel Kräuterschälkur",
       items: [
-        { name: "Microblading Augenbrauen", price: "auf Anfrage" },
-        { name: "Phibrows", price: "auf Anfrage" },
-        { name: "Powder Brows / Ombré", price: "auf Anfrage" },
-        { name: "Permanent Lidstrich", price: "auf Anfrage" },
-        { name: "Permanent Lippen", price: "auf Anfrage" },
-        { name: "Nacharbeit", price: "auf Anfrage" },
+        { name: "Fresh Up", price: "95€" },
+        { name: "Energy", price: "139€" },
+        { name: "Classic", price: "259€" },
+        { name: "Full Body", price: "349€" },
       ],
     },
     {
-      category: "Nageldesign & Maniküre",
+      category: "Wimpern & Augenbrauen",
       items: [
-        { name: "Maniküre klassisch", price: "ab 25€" },
-        { name: "Maniküre mit Shellac", price: "ab 35€" },
-        { name: "Nagelmodellage Neuanlage", price: "ab 55€" },
-        { name: "Nagelmodellage Auffüllung", price: "ab 45€" },
-        { name: "Naturnagelverstärkung", price: "ab 40€" },
-        { name: "Nageldesign / Nail Art", price: "ab 5€" },
+        { name: "Wimpern färben", price: "12€" },
+        { name: "Augenbrauen färben", price: "10€" },
+        { name: "Wimpern & Brauen färben", price: "20€" },
+        { name: "Augenbrauen zupfen", price: "12€" },
+        { name: "Augenbrauen mit Fadentechnik", price: "18€" },
+        { name: "Wimpernlifting", price: "79€" },
+        { name: "Wimpernlifting inkl. färben", price: "82€" },
       ],
     },
     {
-      category: "Wimpern & Waxing",
+      category: "Permanent Make-up",
       items: [
-        { name: "Wimpernverlängerung Classic", price: "auf Anfrage" },
-        { name: "Wimpernverlängerung Volume", price: "auf Anfrage" },
-        { name: "Wimpern Auffüllung", price: "auf Anfrage" },
-        { name: "Hollywood Waxing", price: "ab 35€" },
-        { name: "Brazilian Waxing", price: "ab 30€" },
-        { name: "Beinwaxing komplett", price: "ab 45€" },
+        { name: "Augenbrauen", price: "350€" },
+        { name: "Lidstrich Oben", price: "245€" },
+        { name: "Lidstrich Unten", price: "199€" },
+        { name: "Lidstrich Oben & Unten", price: "350€" },
+        { name: "Lippen", price: "449€" },
+        { name: "Lippenvollschattierung", price: "615€" },
+        { name: "Nachbehandlung Lidstrich", price: "95€" },
+        { name: "Nachbehandlung Augenbrauen/Lippen", price: "169€" },
+      ],
+    },
+    {
+      category: "Microblading",
+      items: [
+        { name: "Augenbrauen", price: "ab 449€" },
+        { name: "Nachbehandlung", price: "129€" },
+      ],
+    },
+    {
+      category: "Maniküre & Nageldesign",
+      items: [
+        { name: "Maniküre Klassisch", price: "32€" },
+        { name: "Maniküre Deluxe", price: "42€" },
+        { name: "SPA Maniküre", price: "62€" },
+        { name: "Shellac lackieren", price: "42€" },
+        { name: "Shellac entfernen inkl. Maniküre", price: "52€" },
+      ],
+    },
+    {
+      category: "Pediküre",
+      items: [
+        { name: "Pediküre Klassisch", price: "40€" },
+        { name: "Pediküre Deluxe", price: "50€" },
+        { name: "SPA Pediküre", price: "64€" },
+      ],
+    },
+    {
+      category: "Haarentfernung / Waxing",
+      items: [
+        { name: "Oberlippe", price: "10€" },
+        { name: "Unterlippe", price: "10€" },
+        { name: "Kinn", price: "10€" },
+        { name: "Achseln", price: "15€" },
+        { name: "Bikinizone", price: "22€" },
+        { name: "Oberschenkel", price: "39€" },
+        { name: "Unterschenkel", price: "29€" },
+        { name: "Ganze Beine", price: "49€" },
+        { name: "Augenbrauen", price: "12€" },
+      ],
+    },
+    {
+      category: "Männersache",
+      items: [
+        { name: "Herrenkosmetik Basis", price: "69€" },
+        { name: "Herrenkosmetik Intensiv", price: "79€" },
       ],
     },
   ],
@@ -272,7 +323,7 @@ export const config = {
   // ============================================
   hygiene: {
     headline: "Entspannung & Wohlbefinden",
-    description: "In unserem Kosmetikstudio in Freiburg können Sie ruhige Momente verbringen, sich vom stressigen Alltag erholen und sich eine verdiente Auszeit gönnen. Wir arbeiten mit hochwertigen Malu Wilz Produkten.",
+    description: "In unserem Kosmetikstudio in Freiburg können Sie ruhige Momente verbringen, sich vom stressigen Alltag erholen und sich eine verdiente Auszeit gönnen. Wir arbeiten mit hochwertigen Produkten von Malu Wilz, Dr. R.A. Eckstein und Dr. med. Christine Schrammek.",
     features: [
       {
         icon: "shield",
@@ -286,7 +337,7 @@ export const config = {
       },
       {
         icon: "award",
-        title: "Malu Wilz Produkte",
+        title: "Premium Produkte",
         description: "Wir verwenden ausschließlich hochwertige Markenprodukte.",
       },
       {
