@@ -21,7 +21,7 @@ export const config = {
   // CONTACT INFORMATION
   // ============================================
   contact: {
-    phone: "0761 - 40 14 606",
+    phone: "0761 40 14 606",
     phoneLink: "tel:+497614014606",
     email: "info@beauty-and-mohr.de",
     whatsapp: "+49 171 217 46 38",
@@ -80,9 +80,9 @@ export const config = {
     fullName: "Cornelia Mohr & Sarah Wilmsen",
     image: "/beauty/face.jpg",
     bio: [
-      "Willkommen bei Beauty and Mohr - Ihre erste Adresse für professionelle Kosmetik, Permanent Make-up und Nageldesign in Freiburg. Unser erfahrenes Team verwöhnt Sie mit erstklassigen Behandlungen.",
+      "Willkommen bei Beauty and Mohr: Ihre erste Adresse für professionelle Kosmetik, Permanent Make-up und Nageldesign in Freiburg. Unser erfahrenes Team verwöhnt Sie mit erstklassigen Behandlungen.",
       "In unserem Kosmetikstudio können Sie ruhige Momente verbringen, sich vom stressigen Alltag erholen und sich eine verdiente Auszeit gönnen. Wir arbeiten mit hochwertigen Produkten von Malu Wilz, Dr. R.A. Eckstein und Dr. med. Christine Schrammek.",
-      "Ob klassische Gesichtsbehandlung, Permanent Make-up, Microblading oder Nageldesign - bei uns sind Sie in besten Händen. Besuchen Sie uns und erleben Sie Schönheitspflege auf höchstem Niveau.",
+      "Ob klassische Gesichtsbehandlung, Permanent Make-up, Microblading oder Nageldesign – bei uns sind Sie in besten Händen. Besuchen Sie uns und erleben Sie Schönheitspflege auf höchstem Niveau.",
     ],
     certifications: [
       { label: "Permanent Make-up Expertin", icon: "award" },
@@ -328,7 +328,7 @@ export const config = {
       {
         icon: "shield",
         title: "Höchste Hygiene",
-        description: "Wir arbeiten steril und sauber - Ihre Gesundheit liegt uns am Herzen.",
+        description: "Wir arbeiten steril und sauber. Ihre Gesundheit liegt uns am Herzen.",
       },
       {
         icon: "star",
