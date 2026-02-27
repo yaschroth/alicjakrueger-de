@@ -579,7 +579,7 @@ const AboutSection = () => {
           <div className="space-y-8">
             <div>
               <span className="text-primary uppercase tracking-[0.3em] text-[10px] font-bold mb-4 block">Über uns</span>
-              <h2 className="font-serif text-5xl md:text-6xl mb-8">Hallo, ich bin <br /><span className="italic">{config.owner.name}.</span></h2>
+              <h2 className="font-serif text-5xl md:text-6xl mb-8">Hallo, wir sind <br /><span className="italic">{config.owner.name}.</span></h2>
             </div>
 
             <div className="space-y-6 text-black/70 leading-relaxed">
@@ -605,7 +605,7 @@ const AboutSection = () => {
                 className="bg-dark text-white px-10 py-5 rounded-full text-xs uppercase tracking-widest font-bold shadow-xl hover:bg-opacity-90 transition-colors duration-200 cursor-pointer focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
                 aria-label="Jetzt kennenlernen und Termin buchen"
               >
-                Lernen Sie mich kennen
+                Lernen Sie uns kennen
               </button>
             </div>
           </div>
@@ -747,7 +747,7 @@ const SchulungenSection = () => {
           </div>
           <h3 className="font-serif text-3xl md:text-4xl text-white mb-4">Bereit durchzustarten?</h3>
           <p className="text-white/60 max-w-lg mx-auto mb-8">
-            Kontaktiere uns für mehr Informationen zu unseren Schulungen. Wir beraten dich gerne individuell!
+            Kontaktieren Sie uns für mehr Informationen zu unseren Schulungen. Wir beraten Sie gerne individuell!
           </p>
           <a
             href={config.schulungen.cta.link}
@@ -826,8 +826,8 @@ const ContactSection = () => {
         <div className="p-12 md:p-20 space-y-12">
           <div>
             <span className="text-primary uppercase tracking-[0.3em] text-[10px] font-bold mb-4 block">Termin vereinbaren</span>
-            <h2 className="font-serif text-5xl md:text-7xl text-white mb-8">Ich freue mich <br /> <span className="italic">auf Sie.</span></h2>
-            <p className="text-white/40 leading-relaxed">Ruf uns an oder schreib uns eine Nachricht. Wir beraten dich gerne zu deinem Wunsch-Treatment und finden den perfekten Termin für dich.</p>
+            <h2 className="font-serif text-5xl md:text-7xl text-white mb-8">Wir freuen uns <br /> <span className="italic">auf Sie.</span></h2>
+            <p className="text-white/40 leading-relaxed">Rufen Sie uns an oder schreiben Sie uns eine Nachricht. Wir beraten Sie gerne zu Ihrem Wunsch-Treatment und finden den perfekten Termin für Sie.</p>
           </div>
 
           <div className="space-y-8">
