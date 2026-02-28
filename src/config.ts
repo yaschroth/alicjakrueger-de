@@ -82,7 +82,7 @@ export const config = {
     bio: [
       "Willkommen bei Beauty and Mohr: Ihre erste Adresse für professionelle Kosmetik, Permanent Make-up und Nageldesign in Freiburg. Unser erfahrenes Team verwöhnt Sie mit erstklassigen Behandlungen.",
       "In unserem Kosmetikstudio können Sie ruhige Momente verbringen, sich vom stressigen Alltag erholen und sich eine verdiente Auszeit gönnen. Wir arbeiten mit hochwertigen Produkten von Malu Wilz, Dr. R.A. Eckstein und Dr. med. Christine Schrammek.",
-      "Ob klassische Gesichtsbehandlung, Permanent Make-up, Microblading oder Nageldesign – bei uns sind Sie in besten Händen. Besuchen Sie uns und erleben Sie Schönheitspflege auf höchstem Niveau.",
+      "Ob klassische Gesichtsbehandlung, Permanent Make-up, Microblading oder Nageldesign: Bei uns sind Sie in besten Händen. Besuchen Sie uns und erleben Sie Schönheitspflege auf höchstem Niveau.",
     ],
     certifications: [
       { label: "Permanent Make-up Expertin", icon: "award" },
