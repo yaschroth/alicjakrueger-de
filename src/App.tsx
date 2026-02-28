@@ -82,7 +82,7 @@ const Navbar = () => {
     { name: 'Preisliste', href: '#pricing' },
     { name: 'Galerie', href: '#gallery' },
     { name: 'Schulungen', href: '#schulungen' },
-    { name: 'Über uns', href: '#about' },
+    { name: 'Über mich', href: '#about' },
     { name: 'Kontakt', href: '#contact' },
   ];
 
@@ -209,7 +209,7 @@ const Hero = () => {
           transition={{ delay: 0.9 }}
           className="text-white/80 text-lg md:text-xl max-w-2xl mx-auto mb-10 font-light"
         >
-          Kosmetik, Permanent Make-up, Microblading & Nageldesign. {config.business.yearsExperience} Jahre Erfahrung in Freiburg.
+          Kosmetik, Permanent Make-up, Maniküre & Pediküre. {config.business.yearsExperience} Jahre Erfahrung in Freiburg.
         </motion.p>
         <motion.div
           initial={{ opacity: 0 }}
@@ -253,7 +253,7 @@ const Hero = () => {
       <div className="absolute bottom-12 left-6 md:left-12 z-10 hidden md:block">
         <div className="flex items-center gap-4 text-white/60 text-[10px] uppercase tracking-widest">
           <div className="flex items-center gap-2">
-            <ShieldCheck size={14} className="text-primary" aria-hidden="true" /> Zertifizierte Kosmetikerinnen
+            <ShieldCheck size={14} className="text-primary" aria-hidden="true" /> Zertifizierte Kosmetikerin
           </div>
           <div className="w-1 h-1 rounded-full bg-white/20" aria-hidden="true"></div>
           <div className="flex items-center gap-2">
@@ -344,11 +344,11 @@ const Services = () => {
     <section id="services" className="py-32 px-6 max-w-7xl mx-auto">
       <div className="flex flex-col md:flex-row md:items-end justify-between mb-20 gap-8">
         <div className="max-w-2xl">
-          <span className="text-primary uppercase tracking-[0.3em] text-[10px] font-bold mb-4 block">Unsere Leistungen</span>
+          <span className="text-primary uppercase tracking-[0.3em] text-[10px] font-bold mb-4 block">Meine Leistungen</span>
           <h2 className="font-serif text-5xl md:text-7xl leading-tight">Beauty-Treatments auf <br /> <span className="italic">höchstem Niveau.</span></h2>
         </div>
         <p className="text-black/50 max-w-sm leading-relaxed text-sm">
-          Von Gesichtsbehandlungen über Permanent Make-up bis Nageldesign. Wir verwöhnen Sie mit professionellen Behandlungen und hochwertigen Produkten.
+          Von Gesichtsbehandlungen über Permanent Make-up bis Maniküre & Pediküre. Ich verwöhne Sie mit professionellen Behandlungen und hochwertigen Maria Galland Produkten.
         </p>
       </div>
 
@@ -439,7 +439,7 @@ const Pricing = () => {
         <div className="mt-20 bg-light rounded-3xl p-10 md:p-16 text-center">
           <h3 className="font-serif text-3xl md:text-4xl mb-4">Ihr Wunschtermin wartet</h3>
           <p className="text-black/50 max-w-lg mx-auto mb-8 text-sm">
-            Buchen Sie jetzt online. Schnell, einfach und verbindlich. Oder schreiben Sie uns direkt über WhatsApp.
+            Buchen Sie jetzt online. Schnell, einfach und verbindlich. Oder schreiben Sie mir direkt über WhatsApp.
           </p>
           <div className="flex flex-col md:flex-row items-center justify-center gap-4">
             <button
@@ -459,7 +459,7 @@ const Pricing = () => {
             </a>
           </div>
           <p className="text-black/30 text-xs mt-6 flex items-center justify-center gap-2">
-            <Clock size={14} aria-hidden="true" /> Wir antworten in der Regel innerhalb von 30 Minuten
+            <Clock size={14} aria-hidden="true" /> Ich antworte in der Regel innerhalb von 30 Minuten
           </p>
         </div>
       </div>
@@ -578,8 +578,8 @@ const AboutSection = () => {
 
           <div className="space-y-8">
             <div>
-              <span className="text-primary uppercase tracking-[0.3em] text-[10px] font-bold mb-4 block">Über uns</span>
-              <h2 className="font-serif text-5xl md:text-6xl mb-8">Hallo, wir sind <br /><span className="italic">{config.owner.name}.</span></h2>
+              <span className="text-primary uppercase tracking-[0.3em] text-[10px] font-bold mb-4 block">Über mich</span>
+              <h2 className="font-serif text-5xl md:text-6xl mb-8">Hallo, ich bin <br /><span className="italic">{config.owner.name}.</span></h2>
             </div>
 
             <div className="space-y-6 text-black/70 leading-relaxed">
@@ -605,7 +605,7 @@ const AboutSection = () => {
                 className="bg-dark text-white px-10 py-5 rounded-full text-xs uppercase tracking-widest font-bold shadow-xl hover:bg-opacity-90 transition-colors duration-200 cursor-pointer focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
                 aria-label="Jetzt kennenlernen und Termin buchen"
               >
-                Lernen Sie uns kennen
+                Lernen Sie mich kennen
               </button>
             </div>
           </div>
@@ -621,7 +621,7 @@ const Testimonials = () => {
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-20">
           <span className="text-primary uppercase tracking-[0.3em] text-[10px] font-bold mb-4 block">Kundenstimmen</span>
-          <h2 className="font-serif text-5xl md:text-7xl text-white mb-6">Was unsere <br /><span className="italic">Kundinnen sagen</span></h2>
+          <h2 className="font-serif text-5xl md:text-7xl text-white mb-6">Was meine <br /><span className="italic">Kundinnen sagen</span></h2>
           <div className="flex items-center justify-center gap-2 text-white/70">
             <div className="flex">
               {[1, 2, 3, 4, 5].map((i) => (
@@ -747,7 +747,7 @@ const SchulungenSection = () => {
           </div>
           <h3 className="font-serif text-3xl md:text-4xl text-white mb-4">Bereit durchzustarten?</h3>
           <p className="text-white/60 max-w-lg mx-auto mb-8">
-            Kontaktieren Sie uns für mehr Informationen zu unseren Schulungen. Wir beraten Sie gerne individuell!
+            Kontaktieren Sie mich für mehr Informationen zu meinen Schulungen. Ich berate Sie gerne individuell!
           </p>
           <a
             href={config.schulungen.cta.link}
@@ -826,8 +826,8 @@ const ContactSection = () => {
         <div className="p-12 md:p-20 space-y-12">
           <div>
             <span className="text-primary uppercase tracking-[0.3em] text-[10px] font-bold mb-4 block">Termin vereinbaren</span>
-            <h2 className="font-serif text-5xl md:text-7xl text-white mb-8">Wir freuen uns <br /> <span className="italic">auf Sie.</span></h2>
-            <p className="text-white/40 leading-relaxed">Rufen Sie uns an oder schreiben Sie uns eine Nachricht. Wir beraten Sie gerne zu Ihrem Wunsch-Treatment und finden den perfekten Termin für Sie.</p>
+            <h2 className="font-serif text-5xl md:text-7xl text-white mb-8">Ich freue mich <br /> <span className="italic">auf Sie.</span></h2>
+            <p className="text-white/40 leading-relaxed">Rufen Sie mich an oder schreiben Sie mir eine Nachricht. Ich berate Sie gerne zu Ihrem Wunsch-Treatment und finde den perfekten Termin für Sie.</p>
           </div>
 
           <div className="space-y-8">
@@ -889,7 +889,7 @@ const Footer = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-12 h-12 rounded-2xl border border-black/5 flex items-center justify-center hover:bg-dark hover:text-white transition-colors duration-200 cursor-pointer focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
-                aria-label="Folgen Sie uns auf Instagram"
+                aria-label="Folgen Sie mir auf Instagram"
               >
                 <Instagram size={20} aria-hidden="true" />
               </a>
@@ -899,7 +899,7 @@ const Footer = () => {
               target="_blank"
               rel="noopener noreferrer"
               className="w-12 h-12 rounded-2xl border border-black/5 flex items-center justify-center hover:bg-dark hover:text-white transition-colors duration-200 cursor-pointer focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
-              aria-label="Kontaktieren Sie uns über WhatsApp"
+              aria-label="Kontaktieren Sie mich über WhatsApp"
             >
               <MessageCircle size={20} aria-hidden="true" />
             </a>
